@@ -202,7 +202,8 @@ nav nav i {
 }
 
 .education .item img {
-	width: 40%;
+	width: 30%;
+	object-fit: cover;
 	margin: -10px;
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
@@ -264,6 +265,7 @@ nav nav i {
 
 .projects .item img {
 	width: 100%;
+	object-fit: cover;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 	height: 150px;
@@ -448,6 +450,8 @@ nav nav i {
 
 	.education .item img {
 		width: 100%;
+		height: 200px;
+		object-fit: over;
 		margin: 0;
 		border-radius: 5px;
 	}
