@@ -223,6 +223,9 @@
             </ul>
          </div>
       </section>
-      <div class="footer">Copyright © 2024 - Your Name</div>
+      <div class="footer">Copyright &copy; <span id="currYear"></span> - Your Name</div>
+      <script>
+         document.getElementById("currYear").innerText = (new Date().getFullYear());
+      </script>
    </body>
 </html>
